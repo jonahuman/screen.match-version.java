@@ -47,6 +47,6 @@ public class Main {
 }
 
 // @author: Jonathan David Ahumada Novoa
-// fecha: 2 de Mayo 2024
-// alía: Flerr
+// Fecha: 3 de Mayo, 2024
+// alías: Flerr
 // nacionalidad: Chilena
