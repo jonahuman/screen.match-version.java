@@ -38,7 +38,8 @@ public class Main {
             Scanner teclado = new Scanner(System.in);
             System.out.println("Ingresa la nota que le darías a Matrix: ");
             double notaMatrix = teclado.nextDouble();
-            mediaEvaluacionUsuario = mediaEvaluacionUsuario + notaMatrix;
+            mediaEvaluacionUsuario = mediaEvaluacionUsuario + notaMatrix; // En consola, para los décimales intente usar coma (,)
+                                                                          // En lugar de (.) si le da error y viceversa.
         }
         System.out.println("La media de la película " +
                 "Matrix calculada por el usuario es: " + mediaEvaluacionUsuario / 3);
