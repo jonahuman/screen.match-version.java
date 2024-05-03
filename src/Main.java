@@ -1,3 +1,4 @@
+import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class Main {
@@ -37,7 +38,9 @@ public class Main {
             Scanner teclado = new Scanner(System.in);
             System.out.println("Ingresa la nota que le darías a Matrix: ");
             double notaMatrix = teclado.nextDouble();
-            mediaEvaluacionUsuario = mediaEvaluacionUsuario + notaMatrix / 3;
+            mediaEvaluacionUsuario = mediaEvaluacionUsuario + notaMatrix;
         }
+        System.out.println("La media de la película " +
+                "Matrix calculada por el usuario es: " + mediaEvaluacionUsuario / 3);
     }
 }
