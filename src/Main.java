@@ -1,18 +1,14 @@
-import java.util.Scanner;
+import modelo.Pelicula;
 
 public class Main {
     public static void main(String[] args) {
         Pelicula matrix = new Pelicula();
-        matrix.nombre = "Matrix";
-        matrix.tiempoDeDuracionEnMinutos = 125;
-        matrix.fechaDeLanzamiento = 1999;
+        matrix.setNombre("Matrix");
+        matrix.setTiempoDeDuracionEnMinutos(120);
+        matrix.setFechaDeLanzamiento(1999);
+
         matrix.muestraFichaTecnica();
 
-        Pelicula encanto =  new Pelicula();
-        encanto.nombre = "Encanto";
-        encanto.tiempoDeDuracionEnMinutos = 120;
-        encanto.fechaDeLanzamiento = 2022;
-        encanto.muestraFichaTecnica(); // podemos ahorrar líneas de código
     }
 }
 
