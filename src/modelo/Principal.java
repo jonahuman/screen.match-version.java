@@ -11,6 +11,9 @@ public class Principal {
             String menu = """
                     Bienvenid@ a ScreenMatch
                     1) Registrar nueva película
+                    2) Registrar una nueva serie
+                    
+                    9) Salir
                     """;
             System.out.println(menu);
             opcion = teclado.nextInt();
@@ -27,9 +30,18 @@ public class Principal {
                     teclado.nextLine();
                     Pelicula peliculaUsuario = new Pelicula();
                     peliculaUsuario.setNombre(nombre);
+                    peliculaUsuario.setFechaDeLanzamiento(fechaDeLanzamiento);
                     peliculaUsuario.setTiempoDeDuracionEnMinutos(duracionEnMinutos);
                     peliculaUsuario.muestraFichaTecnica();
+                    break;
+                default:
+                    System.out.println("Opción no válida");
+                    break;
+                case 9:
+                    System.out.println("Saliendo del Programa...");
+                    break;
             }
         }
     }
 }
+
