@@ -7,9 +7,7 @@ public class Main {
         matrix.tiempoDeDuracionEnMinutos = 125;
         matrix.fechaDeLanzamiento = 1999;
 
-        System.out.println(matrix.nombre);
-        System.out.println(matrix.tiempoDeDuracionEnMinutos);
-        System.out.println(matrix.fechaDeLanzamiento);
+        System.out.println(matrix.muestraFichaTecnica();
 
         Pelicula encanto =  new Pelicula();
         encanto.nombre = "Encanto";
