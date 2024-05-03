@@ -6,14 +6,13 @@ public class Main {
         matrix.nombre = "Matrix";
         matrix.tiempoDeDuracionEnMinutos = 125;
         matrix.fechaDeLanzamiento = 1999;
-
-        System.out.println(matrix.muestraFichaTecnica();
+        matrix.muestraFichaTecnica();
 
         Pelicula encanto =  new Pelicula();
         encanto.nombre = "Encanto";
         encanto.tiempoDeDuracionEnMinutos = 120;
         encanto.fechaDeLanzamiento = 2022;
-        encanto.muestraFichaTecnica();
+        encanto.muestraFichaTecnica(); // podemos ahorrar líneas de código
     }
 }
 
