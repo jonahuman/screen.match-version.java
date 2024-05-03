@@ -23,7 +23,7 @@ public class Main {
         System.out.println("Película: " + nombre);
         System.out.println("Fecha: " + fechaDeLanzamiento);
         System.out.println("Puntaje: " + evaluacion);
-        System.out.println("Plan:" + incluidoEnElPlanBasico);
+        System.out.println("Plan: " + incluidoEnElPlanBasico);
 
         double mediaEvaluacion = (4.5 + 4.8 + 3) / 3;
         System.out.println("Media de la Evaluación de Matrix: " + mediaEvaluacion);
