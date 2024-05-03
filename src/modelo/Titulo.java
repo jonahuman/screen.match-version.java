@@ -59,8 +59,9 @@ public class Titulo {
         System.out.println("-.-.-.-.-.-FICHA TÉCNICA-.-.-.-.-.-.-");
         System.out.println("Nombre de la película: " + nombre);
         System.out.println("Fecha de lanzamiento: " + fechaDeLanzamiento);
-        System.out.println("Tiempo de duración: " + tiempoDeDuracionEnMinutos + " minutos");
-
+        System.out.println("Tiempo de duración: " + getTiempoDeDuracionEnMinutos() + " minutos");
+        // Independiente del contexto, Get se usará para que aparezca el tiempo de duración
+        // en minutos para que se muestre en la ficha técnica de serie también.
     }
 }
 
