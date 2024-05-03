@@ -15,8 +15,7 @@ public class Main {
         encanto.nombre = "Encanto";
         encanto.tiempoDeDuracionEnMinutos = 120;
         encanto.fechaDeLanzamiento = 2022;
-
-        System.out.println();
+        encanto.muestraFichaTecnica();
     }
 }
 
