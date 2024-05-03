@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
         System.out.println("¡Bienvenidos a la inmersión en Java!");
@@ -23,6 +25,17 @@ public class Main {
         System.out.println("Plan:" + incluidoEnElPlanBasico);
 
         double mediaEvaluacion = (4.5 + 4.8 + 3) / 3;
+        System.out.println("Media de la Evaluación de Matrix: " + mediaEvaluacion);
 
+        if (fechaDeLanzamiento >= 2023) {
+            System.out.println("Película popular en el momento");
+        } else {
+            System.out.println("Película retro que vale la pena ver");
+        }
+
+        for (int i = 0; i < 3; i++) {
+            Scanner teclado = new Scanner(System.in);
+            double mediaEvaluacionesUsuario = teclado.nextDouble();
+        }
     }
 }
