@@ -1,8 +1,8 @@
 public class Main {
     public static void main(String[] args) {
         System.out.println("¡Bienvenidos a la inmersión en Java!");
-        System.out.println("Película Matrix");
-
+        // System.out.println("Película Matrix");
+        // Declaración de variables.
         int fechaDeLanzamiento;
         fechaDeLanzamiento = 1999;
         double evaluacion = 4.5;
@@ -17,8 +17,12 @@ public class Main {
                 Matrix te posee. Sigue al conejo blanco.
                 """;
 
-        System.out.println(fechaDeLanzamiento);
-        System.out.println(evaluacion);
-        System.out.println(incluidoEnElPlanBasico);
+        System.out.println("Película: " + nombre);
+        System.out.println("Fecha: " + fechaDeLanzamiento);
+        System.out.println("Puntaje: " + evaluacion);
+        System.out.println("Plan:" + incluidoEnElPlanBasico);
+
+        double mediaEvaluacion = (4.5 + 4.8 + 3) / 3;
+
     }
 }
