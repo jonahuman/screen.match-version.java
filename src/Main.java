@@ -1,11 +1,11 @@
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
         System.out.println("¡Bienvenidos a la inmersión en Java!");
+         System.out.println("Película Matrix");
         // System.out.println("Película Matrix");
-        // Declaración de variables.
+        // Declaración de variables
         int fechaDeLanzamiento;
         fechaDeLanzamiento = 1999;
         double evaluacion = 4.5;
@@ -34,7 +34,7 @@ public class Main {
             System.out.println("Película retro que vale la pena ver");
         }
 
-        for (int i = 0; i < 3; i++) {
+        for (int i = 0; i < 3; i++) { // Ciclo for visto en la primera clase, se cambiará a While en 'MainConWhile.java'
             Scanner teclado = new Scanner(System.in);
             System.out.println("Ingresa la nota que le darías a Matrix: ");
             double notaMatrix = teclado.nextDouble();
@@ -45,3 +45,8 @@ public class Main {
                 "Matrix calculada por el usuario es: " + mediaEvaluacionUsuario / 3);
     }
 }
+
+// @author: Jonathan David Ahumada Novoa
+// fecha: 2 de Mayo 2024
+// alía: Flerr
+// nacionalidad: Chilena
