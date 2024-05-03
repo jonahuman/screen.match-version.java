@@ -18,7 +18,7 @@ public class Main {
                 Otros dos piratas informáticos, Trinity y Morfeo, se ponen en contacto con Neo para ayudarlo a escapar. 
                 Matrix te posee. Sigue al conejo blanco.
                 """;
-
+        double mediaEvaluacionUsuario = 0;
         System.out.println("Película: " + nombre);
         System.out.println("Fecha: " + fechaDeLanzamiento);
         System.out.println("Puntaje: " + evaluacion);
@@ -35,7 +35,9 @@ public class Main {
 
         for (int i = 0; i < 3; i++) {
             Scanner teclado = new Scanner(System.in);
-            double mediaEvaluacionesUsuario = teclado.nextDouble();
+            System.out.println("Ingresa la nota que le darías a Matrix: ");
+            double notaMatrix = teclado.nextDouble();
+            mediaEvaluacionUsuario = mediaEvaluacionUsuario + notaMatrix / 3;
         }
     }
 }
